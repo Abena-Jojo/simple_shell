@@ -1,15 +1,15 @@
 #include "shell.h"
 
 /**
- * _mystory - displays the story list, one command by line, preceded
+ * _myhistory - displays the story list, one command by line, preceded
  *              with line numbers, starting at 0.
  * @info: potential arguments containing structure to maintain
  *        constant function prototype.
  *  Return: Always 0
  */
-int _mystory(info_t *info)
+int _myhistory(info_t *info)
 {
-	print_list(info->story);
+	print_list(info->history);
 	return (0);
 }
 
